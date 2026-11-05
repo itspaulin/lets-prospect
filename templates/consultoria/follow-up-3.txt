@@ -1,0 +1,5 @@
+Olá, {{contact.firstName}},
+
+Não quero encher sua caixa de entrada, então este é meu último contato. Se surgir demanda de desenvolvimento no futuro, é só responder este e-mail.
+
+Abraço,

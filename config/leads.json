@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "segment": "imobiliária",
+  "profile": "Imobiliárias de venda e/ou aluguel de imóveis, com site próprio e imóveis anunciados, que atendem clientes por WhatsApp ou telefone. Descartar: portais e sites de anúncios, construtoras e incorporadoras, administradoras de condomínio, corretor autônomo sem carteira de imóveis no site, sede de franquia e empresas que não vendem nem alugam imóveis.",
+  "discovery": {
+    "targets": [
+      { "city": "Natal", "state": "RN" },
+      { "city": "Belo Horizonte", "state": "MG" },
+      { "city": "Recife", "state": "PE" },
+      { "city": "Fortaleza", "state": "CE" },
+      { "city": "Salvador", "state": "BA" },
+      { "city": "Curitiba", "state": "PR" },
+      { "city": "Goiânia", "state": "GO" },
+      { "city": "Porto Alegre", "state": "RS" }
+    ],
+    "perSearchLimit": 60,
+    "minCandidates": 30,
+    "maxSearchesPerRun": 2,
+    "cooldownDays": 60,
+    "maxRequestsPerMonth": 600
+  }
+}

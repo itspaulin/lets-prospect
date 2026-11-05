@@ -1,0 +1,5 @@
+Olá, {{contact.firstName}},
+
+Só retomando minha mensagem anterior, caso tenha se perdido na caixa de entrada. Se um desenvolvedor externo para projetos de clientes não faz sentido para a {{company.name}} agora, um "agora não" já ajuda, e não insisto mais.
+
+Abraço,

@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "hypothesisFactor": 0.5,
+  "minCoverageForPriority": 0.5,
+  "priorityThresholds": { "high": 0.7, "medium": 0.45 },
+  "requiredForQualified": ["business_model"],
+  "criteria": [
+    {
+      "id": "business_model",
+      "label": "Desenvolve software para clientes (agência ou software house)",
+      "type": "evidence",
+      "evidenceKind": "business_model",
+      "weight": 30
+    },
+    {
+      "id": "size",
+      "label": "Entre 5 e 50 funcionários",
+      "type": "employee_range",
+      "min": 5,
+      "max": 50,
+      "weight": 15
+    },
+    {
+      "id": "country",
+      "label": "Mercado prioritário (US, GB) ou secundário (CA, IE, AU)",
+      "type": "country",
+      "primary": ["US", "GB"],
+      "secondary": ["CA", "IE", "AU"],
+      "secondaryFactor": 0.6,
+      "weight": 15
+    },
+    {
+      "id": "stack",
+      "label": "Stack compatível: parte da stack da empresa que é minha",
+      "type": "technology_overlap",
+      "technologies": [
+        "Node.js", "TypeScript", "JavaScript", "NestJS", "PostgreSQL", "Redis", "RabbitMQ", "Docker",
+        "Go", "Next.js", "React", "AWS", "Cloudflare", "nginx", "Typesense", "C#",
+        "Express.js", "Vue.js", "Angular", "Nuxt.js", "Svelte.js", "React Native"
+      ],
+      "minKnown": 3,
+      "weight": 15
+    },
+    {
+      "id": "recurring_work",
+      "label": "Evidência de projetos recorrentes ou equipes dedicadas",
+      "type": "evidence",
+      "evidenceKind": "recurring_work",
+      "weight": 10
+    },
+    {
+      "id": "demand_signal",
+      "label": "Sinal de demanda (crescimento, novos contratos, uso de externos)",
+      "type": "evidence",
+      "evidenceKind": "demand_signal",
+      "weight": 10
+    },
+    {
+      "id": "decision_maker",
+      "label": "Decisor relevante cadastrado",
+      "type": "decision_maker_contact",
+      "roles": ["founder", "ceo", "cto", "head of engineering", "engineering manager", "delivery manager", "vp engineering"],
+      "weight": 5
+    }
+  ]
+}

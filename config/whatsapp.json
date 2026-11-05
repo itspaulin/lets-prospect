@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "dailyLimit": 10,
+  "minIntervalSeconds": 120,
+  "maxIntervalSeconds": 360,
+  "window": { "timezone": "America/Sao_Paulo", "days": [1, 2, 3, 4, 5], "startHour": 9, "endHour": 18 },
+  "stopAfterFailures": 3,
+  "autoApprove": true,
+  "firstMessage": "Oi, tudo bem? Aqui é o {{sender.nickname}}, desenvolvedor. Vi a {{lead.shortName}} e queria te mostrar uma ideia rápida de automação para o atendimento de vocês no WhatsApp. Posso te mandar um exemplo?"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "descadastro",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-05",
+  "workers_dev": true,
+  "preview_urls": false,
+  // KV namespace criado com `npx wrangler kv namespace create OPTOUTS`; cole o id aqui antes do deploy.
+  "kv_namespaces": [{ "binding": "OPTOUTS", "id": "0ffd1bafc4f34ea2960a6510d543b4de" }]
+  // Segredos (não ficam no arquivo): npx wrangler secret put SECRET / API_TOKEN
+}

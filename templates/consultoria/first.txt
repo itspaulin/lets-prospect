@@ -1,0 +1,11 @@
+Olá, {{contact.firstName}},
+
+{{reason}}
+
+Sou desenvolvedor full-stack e atendo como PJ, com Node.js, TypeScript, NestJS, React, PostgreSQL e AWS. Entro como reforço em projetos de consultorias quando a demanda passa do que o time consegue absorver: alocado no projeto do cliente ou assumindo uma parte da entrega, por hora, por projeto ou de forma contínua.
+
+A {{company.name}} trabalha com {{stack}}, que é a stack que uso no dia a dia.
+
+Se vocês têm ou terão demanda de desenvolvimento, você teria abertura para uma conversa rápida? Se não, sem problema nenhum.
+
+Abraço,

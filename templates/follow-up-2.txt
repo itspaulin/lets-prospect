@@ -1,0 +1,5 @@
+Olá, {{contact.firstName}},
+
+Uma forma simples de ver isso: quando entra um projeto de cliente e o time já está ocupado, um desenvolvedor externo que conhece a stack encurta o tempo até começar. Se isso acontecer na {{company.name}}, posso conversar sobre o projeto e ver se encaixo, sem compromisso.
+
+Abraço,

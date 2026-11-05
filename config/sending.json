@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "dailyLimit": 20,
+  "minIntervalSeconds": 90,
+  "followUp": {
+    "maxFollowUps": 3,
+    "intervalBusinessDays": [
+      3,
+      5,
+      7
+    ]
+  },
+  "footer": "{{sender.name}}\n{{sender.postalAddress}}\n\nSe preferir não receber mais mensagens minhas, é só avisar por aqui que eu não escrevo mais.",
+  "footerWithLink": "{{sender.name}}\n{{sender.postalAddress}}\n\nSe preferir não receber mais mensagens minhas, é só avisar por aqui ou clicar neste link: {{unsubscribeUrl}}"
+}
